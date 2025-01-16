@@ -1,0 +1,15 @@
+{
+  "name": "getudid-js",
+  "version": "1.0.0",
+  "description": "An ExpressJS server template for getting iOS / iPadOS UDID from user written in Js instead of PHP like most repo on github",
+  "main": "uuid.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "xml2js": "^0.6.2"
+  }
+}
