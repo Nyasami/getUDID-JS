@@ -4,7 +4,8 @@
   "description": "An ExpressJS server template for getting iOS / iPadOS UDID from user written in Js instead of PHP like most repo on github",
   "main": "uuid.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node uuid.js"
   },
   "author": "",
   "license": "ISC",

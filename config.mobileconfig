@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <dict>
+        <key>URL</key>
+        <string>https://your-server.com/endpoint</string>
+    <key>DeviceAttributes</key>
+    <array>
+        <string>UDID</string>
+        <string>DEVICE_NAME</string>
+        <string>VERSION</string>
+        <string>PRODUCT</string>
+        <string>MAC_ADDRESS_EN0</string>
+        <string>IMEI</string>
+        <string>ICCID</string>
+    </array>
+</dict>
+    <key>PayloadOrganization</key>
+    <string>Your Organization</string>
+    <key>PayloadDisplayName</key>
+    <string>Your Display Name</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadUUID</key>
+    <string>Your UUID</string>
+    <key>PayloadIdentifier</key>
+    <string>Your Identifier</string>
+    <key>PayloadDescription</key>
+    <string>Your Description</string>
+    <key>PayloadType</key>
+    <string>Profile Service</string>
+</dict>
+</plist>

@@ -2,6 +2,10 @@ const express = require('express');
 const { parseStringPromise } = require('xml2js');
 const app = express();
 
+app.get('/', (req, res) => {
+    res.sendFile(__dirname + '/config.mobileconfig');
+});
+
 app.post('/endpoint', express.raw({ type: '*/*' }), async (req, res) => {
     try {
         const bodyString = req.body.toString('utf-8');
